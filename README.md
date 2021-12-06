@@ -47,7 +47,7 @@ store(salt, hash)
 
 scrypt, bcrypt, argon2
 
-### Data breaches and how to deal it
+### Data breaches and how to deal with it
 
 Have asymmetric encryption with a secret key. As we have only one secret key for our whole app, it is easier to secure.
 
