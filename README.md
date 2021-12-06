@@ -2,6 +2,20 @@
 
 &copy; Maxence Raballand 2021
 
+Exercices from [this source](https://vqhuy.github.io/teaching/crypto/td5).
+
+## Usage of the scripts
+
+First you need to install all requirements.
+
+```bash
+pip install -r requirements.txt 
+```
+
+Then you can either user my `keyset.json` file or create a new one by running the `keyset_tink.py` script. The key is encrypted in clear so it is not ideal but only for test purposes.
+
+Finally, you run the `main.py` script to either register a user or login.
+
 ## How to calculate the strength of a password?
 
 ### **Question 1**: What is minimum length of a password created from case-insensitive alphanumeric and having 64-bit of entropy?
@@ -31,7 +45,7 @@ store(salt, hash)
 
 ### Which hashing algorithm to use
 
-SSCRYPT, beCrypt, argon2
+scrypt, bcrypt, argon2
 
 ### Data breaches and how to deal it
 
